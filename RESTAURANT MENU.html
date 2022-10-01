@@ -1,0 +1,319 @@
+<html>
+<head>
+<title>RESTAURANT MENU</title>
+<style>
+    .class1
+    {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        padding: 30px 20px;
+        grid-column-gap: 20px;
+        grid-row-gap: 30px;
+    }
+    .class2 h3
+    {
+        padding: 5px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .class2 img
+    {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        cursor: pointer;
+        transition: 0.2s ease;
+        border: 1px solid white;
+    }
+    .class2 button
+    {
+        padding: 5px 30px;
+        background-color: yellow;
+        color: white;
+        border-radius: 4px;
+        font-size: 20px;
+        display: block;
+        margin:  0 auto;
+        color: blue;
+    }
+    .class2 button:hover
+    {
+        transform: scale(1.08);
+    };
+    @media screen and (max-width: 1000px)
+    {
+        .class1
+        {
+            grid-template-columns:repeat(2,1fr);
+        }
+    } 
+    @media screen and (max-width: 768px)
+    {
+        .class1
+        {
+            grid-template-columns:repeat(1,1fr);
+        }
+    } 
+    body
+    {
+        background-image: url("back1.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        margin: 0;
+    }
+    .class2 img:hover
+    {
+        transform: scale(1.04);
+    }
+</style>
+</head>
+<body>
+    <img style="display: inline-block;display: block; margin-left: auto; margin-right: auto; width: 200; height: 200" src="face.gif">
+    <h1 style="color: white;text-align:center; font-size: 60px; padding: 5px 5px;">HUNGRY TIME</h1>
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">TIFFINS</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="idly.jpg">
+            <h3>Idly</h3>
+            <button><b>Rs.50/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="poori.webp">
+            <h3>Poori</h3>
+            <button><b>Rs.65/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="vada.jpg">
+            <h3>Vada</h3>
+            <button><b>Rs.30/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="pulka.webp">
+            <h3>Pulka</h3>
+            <button><b>Rs.59/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="bonda.jpg">
+            <h3>Bonda</h3>
+            <button><b>Rs.45/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="dosa.jpeg">
+            <h3>Dosa</h3>
+            <button><b>Rs.120/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="paratta.jfif">
+            <h3>Paratta</h3>
+            <button><b>Rs.75/-</b></button>
+        </div>
+    </section>
+
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">NON VEG STARTER'S</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="chicken_lollipop.jpg">
+            <h3>Chicken lollipop</h3>
+            <button><b>Rs.259/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chicken_tikka.jfif">
+            <h3>Chicken Tikka</h3>
+            <button><b>Rs.215/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="tandoori.jpg">
+            <h3>Tandoori</h3>
+            <button><b>Rs.300/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="grilled_chicken_wings.jpg">
+            <h3>Grilled chicken wings</h3>
+            <button><b>Rs.319/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chilli_chicken.jpg">
+            <h3>Chilli chicken</h3>
+            <button><b>Rs.299/-</b></button>
+        </div>
+    </section>
+
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">RICE</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="coriander.jpg">
+            <h3>Coriander rice</h3>
+            <button><b>Rs.179/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="fried_rice.jpg">
+            <h3>Fried rice</h3>
+            <button><b>Rs.149/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="jeera.jpg">
+            <h3>Jeera rice</h3>
+            <button><b>Rs.195/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="mint.jpg">
+            <h3>Mint rice</h3>
+            <button><b>Rs.135/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="egg_rice.jpg">
+            <h3>Egg rice</h3>
+            <button><b>Rs.200/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="schezwan.jpg">
+            <h3>Schezwan fried rice</h3>
+            <button><b>Rs.180/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chicken_fried_rice.jpg">
+            <h3>Chicken fried rice</h3>
+            <button><b>Rs.215/-</b></button>
+        </div>
+    </section>
+
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">PURE VEG</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="potato_curry.jpg">
+            <h3>Potato curry</h3>
+            <button><b>Rs.159/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="cauliflower.webp">
+            <h3>Cauliflower curry</h3>
+            <button><b>Rs.120/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="paneer_masala.jpg">
+            <h3>Paneer masala</h3>
+            <button><b>Rs.130/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="brinjal.webp">
+            <h3>Brinjal curry</h3>
+            <button><b>Rs.100/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="paneer_butter.webp">
+            <h3>Butter paneer</h3>
+            <button><b>Rs.156/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="sambar.jpeg">
+            <h3>Sambar</h3>
+            <button><b>Rs.105/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="mixed_veg.jpg">
+            <h3>Mixed veg curry</h3>
+            <button><b>Rs.135/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="drumstick.jpg">
+            <h3>Drumstick curry</h3>
+            <button><b>Rs.95/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="dal.jpg">
+            <h3>Dal</h3>
+            <button><b>Rs.85/-</b></button>
+        </div>
+    </section>
+
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">BIRYANI</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="potbiryani.jpg">
+            <h3>Pot biryani</h3>
+            <button><b>Rs.459/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="boneless_bir.jpg">
+            <h3>Boneless chicken biryani</h3>
+            <button><b>Rs.320/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chicken_fry.jpg">
+            <h3>Chicken fry piece biryani</h3>
+            <button><b>Rs.349/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="mutton_biryani.jpg">
+            <h3>Mutton biryani</h3>
+            <button><b>Rs.445/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="dum_biryani.jpg">
+            <h3>Chicken dum biryani</h3>
+            <button><b>Rs.375/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="prawn_biryani.jpg">
+            <h3>Prawn biryani</h3>
+            <button><b>Rs.359/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chicken_biryani.jpg">
+            <h3>Chicken biryani</h3>
+            <button><b>Rs.289/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="egg_biryani.jpg">
+            <h3>Egg biryani</h3>
+            <button><b>Rs.215/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="hyd_bir.jpg">
+            <h3>Hyderabad biryani</h3>
+            <button><b>Rs.300/-</b></button>
+        </div>
+    </section>
+
+    <h2 style="color: aqua;text-align:center; font-size: 40px; padding: 10px 10px;">DESSERTS</h2>
+    <section class="class1">
+        <div class="class2">
+            <img src="peach_berry_frozen.webp">
+            <h3>Peach berry frozen dessert</h3>
+            <button><b>Rs.95/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="coffee_dessert.jpg">
+            <h3>Coffee dessert</h3>
+            <button><b>Rs.125/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="panna_cotta.jfif">
+            <h3>Panna cotta</h3>
+            <button><b>Rs.90/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="chocolate.jpg">
+            <h3>Chocolate dessert</h3>
+            <button><b>Rs.130/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="mango.jfif">
+            <h3>Mango dessert</h3>
+            <button><b>Rs.110/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="strawberry.jpg">
+            <h3>Strawberry dessert</h3>
+            <button><b>Rs.115/-</b></button>
+        </div>
+        <div class="class2">
+            <img src="berry.jpg">
+            <h3>Berry dessert</h3>
+            <button><b>Rs.99/-</b></button>
+        </div>
+    </section>
+</body>
+</html>
